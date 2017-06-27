@@ -9,7 +9,7 @@
   <url>http://gebish.org</url>
   <properties>
     <gebVersion>1.1.1</gebVersion>
-    <seleniumVersion>3.0.1</seleniumVersion>
+    <seleniumVersion>3.4.0</seleniumVersion>
     <groovyVersion>2.4.7</groovyVersion>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -25,6 +25,11 @@
       <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-firefox-driver</artifactId>
+      <version>${seleniumVersion}</version>
     </dependency>
     <dependency>
       <groupId>org.spockframework</groupId>
