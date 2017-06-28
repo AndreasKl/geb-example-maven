@@ -32,6 +32,11 @@
       <version>${seleniumVersion}</version>
     </dependency>
     <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-firefox-driver</artifactId>
+      <version>${seleniumVersion}</version>
+    </dependency>
+    <dependency>
       <groupId>org.spockframework</groupId>
       <artifactId>spock-core</artifactId>
       <version>1.0-groovy-2.4</version>
