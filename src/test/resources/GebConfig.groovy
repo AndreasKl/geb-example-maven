@@ -1,9 +1,9 @@
 import org.openqa.selenium.chrome.ChromeDriver
-import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.os.CommandLine
 
 driver = { 
-  new FirefoxDriver()
+  System.setProperty('webdriver.chrome.driver', '/usr/lib/chromium/chromedriver')
+  new ChromeDriver() 
 }
 
 baseUrl = "http://gebish.org"
